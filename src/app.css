@@ -107,3 +107,7 @@ font-weight: 700;
     background-color: var(--hunyadi-yellow);
 }
 
+.productionContainer{
+    margin-top: 5px;
+}
+
