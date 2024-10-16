@@ -1,0 +1,31 @@
+
+
+.nameInput{
+    display: flex;
+    flex-direction: column;
+}
+
+.nameInput input{
+ outline: none;
+ background-color: var(--tiffany-blue);
+ border:none;
+ padding:8px;
+ border-radius: 10px;
+ margin-bottom: 10px;
+ font-size: 1.5rem;
+}
+
+.nameInput button{
+    border: none;
+    border-radius: 10px;
+    background-color: var(--tiffany-blue);
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-bottom: 10px;
+}
+
+.nameInput button:hover{
+    background-color: var(--hunyadi-yellow);
+}
