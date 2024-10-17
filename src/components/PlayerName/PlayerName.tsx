@@ -1,4 +1,5 @@
 import React, { FormEvent, useState } from "react"
+import styles from './PlayerName.module.css'
 
 
 
@@ -22,13 +23,13 @@ const PlayerName = () => {
      <>
     {isPlayerEdit?
      (
-     <div onClick={handleisEdit} className={"PlayerName"}>
+     <div onClick={handleisEdit} className={styles.PlayerName}>
         <h1>{PlayerName}</h1>
      </div>
      )
      :
     (
-    <form onSubmit={handleSubmit} className="nameInput" action="">
+    <form onSubmit={handleSubmit} className={styles.nameInput} action="">
         <input type="text" value={PlayerName} onChange={handlePlayerName}/>
         <button type="submit">save</button>
     </form>    
